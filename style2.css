@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: initial;
+}
+
+header{
+    box-shadow: 0 0 15px 5px lightgrey;
+    position: relative;
+}
+
+h1{
+    font-size: 40px;
+}
+.title span{
+    color:#00A5EC;
+    gap: 4;
+}
+
+.title{
+    padding: 5px; 
+    margin-left: 130px;
+}
+section{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: #f7f7f7;
+    font-size: 18px;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    height: 875px;
+
+}
+
+.new{
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+    color: #424242;
+    position: absolute;
+    margin-left: 48rem; 
+    padding-left: 10rem;
+    
+}
+
+.fa-circle-plus{
+    color: #00A5EC;
+
+}
+
+
+.box1{
+    height: 350px;
+    width: 340px;
+    border: 2px solid #EDEDED;
+    border-radius: 15px;
+    margin-top: 60px;
+    background-color: white;
+}
+
+.last{
+    margin-right: 26rem;
+}
+
+.box1:hover{
+    box-shadow: 0 0 10px 5px lightgray;
+}
+
+.head{
+    padding: 20px;
+    font-size: 20px;
+    color: #00A5EC;
+}
+
+.head a{   
+    
+    color: #00A5EC;
+    text-decoration: none;
+}
+.checklist{
+    padding: 30px;
+    font-size: 20px;
+    gap: 40px;
+}
+.check1{
+    
+    display: flex;
+    align-items: center;
+}
+.checklist span{
+    color: #C2C2C2;
+    text-decoration: line-through;
+}
+
+
+input{
+    height: 25px;
+    width: 18.5rem;
+    margin: 20px;
+    padding-left: 10px;
+}
+
+.line{
+    height: 20px;
+    width: 20px;
+    color: #424242;
+
+}
+
+/*.......second page of css.......*/
+
+.bgcolor{
+    background-color: #f7f7f7;
+}
+
+.papa{
+    filter: brightness(0.5);
+}
+
+.firstbox{
+    height: 200px;
+    width: 375px;
+    border-radius: 5px;
+    position: absolute;
+    border: 1.5px solid lightgray;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,0);
+    background-color: white;
+}
+
+.old{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 15px;
+}
+ .learn{ 
+    background-color: white;
+    padding: 20px;
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #C2C2C2;
+ }
+ 
+ .learn button{
+    background-color: #00A5EC;
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    align-self: flex-end;
+    border: none;
+ }
+ input::placeholder{
+    background-color:white;
+    padding: 15px 15px 15px 15px;
+    color: rgb(121, 118, 118)
+
+ }
+
+/*.....third page of css.....*/
+
+.back{
+    display: flex;
+    position: absolute;
+    column-gap: 10px;
+    left: 450px;
+}
+
+.fa-circle-arrow-left{
+    color: rgb(29, 29, 29);
+    font-size: 35px;
+}
+h3{
+    display: flex;
+    font-size: medium;
+    align-items: center;
+}
+.newpage{
+    column-gap: 5px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 755px;
+    color: #424242;
+}
+.boss{
+    text-align: center;
+    border-radius: 10px;
+    height: 325px;
+    width: 420px;
+    background-color: white;
+    position: absolute;
+    top: 170px;
+    left: 29rem;
+    font-size: 1.1rem;
+    
+}
+
+.checklistbox{
+    width: 185px;
+
+}
+
+.check1 span{  
+    font-size: larger;
+    text-decoration: line-through;
+    color: #C2C2C2;    
+}
+.learn{
+    filter: blur(200);
+}
